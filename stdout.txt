@@ -1,0 +1,73 @@
+<53shell>$ python3 noop.py abc &
+DEBUG: 
+DEBUG: Full command line: python3 noop.py abc &
+DEBUG: Background job: yes
+DEBUG: Input file: (null)
+DEBUG: Output file: (null)
+DEBUG: Append Mode: no
+DEBUG: OutErr Mode: no
+DEBUG: Number of processes: 1
+DEBUG: Proc 0:
+DEBUG: 	cmd: python3
+DEBUG: 	argc: 3
+DEBUG: 	argv:
+DEBUG: 	 [0]: python3
+DEBUG: 	 [1]: noop.py
+DEBUG: 	 [2]: abc
+DEBUG: 	Error file: (null)
+DEBUG: 
+<53shell>$ 
+<53shell>$ python3 sleep.py 2
+DEBUG: 
+DEBUG: Full command line: python3 sleep.py 2
+DEBUG: Background job: no
+DEBUG: Input file: (null)
+DEBUG: Output file: (null)
+DEBUG: Append Mode: no
+DEBUG: OutErr Mode: no
+DEBUG: Number of processes: 1
+DEBUG: Proc 0:
+DEBUG: 	cmd: python3
+DEBUG: 	argc: 3
+DEBUG: 	argv:
+DEBUG: 	 [0]: python3
+DEBUG: 	 [1]: sleep.py
+DEBUG: 	 [2]: 2
+DEBUG: 	Error file: (null)
+DEBUG: 
+<53shell>$ 
+<53shell>$ python3 noop.py
+DEBUG: 
+DEBUG: Full command line: python3 noop.py
+DEBUG: Background job: no
+DEBUG: Input file: (null)
+DEBUG: Output file: (null)
+DEBUG: Append Mode: no
+DEBUG: OutErr Mode: no
+DEBUG: Number of processes: 1
+DEBUG: Proc 0:
+DEBUG: 	cmd: python3
+DEBUG: 	argc: 2
+DEBUG: 	argv:
+DEBUG: 	 [0]: python3
+DEBUG: 	 [1]: noop.py
+DEBUG: 	Error file: (null)
+DEBUG: 
+<53shell>$ 
+<53shell>$ exit
+DEBUG: 
+DEBUG: Full command line: exit
+DEBUG: Background job: no
+DEBUG: Input file: (null)
+DEBUG: Output file: (null)
+DEBUG: Append Mode: no
+DEBUG: OutErr Mode: no
+DEBUG: Number of processes: 1
+DEBUG: Proc 0:
+DEBUG: 	cmd: exit
+DEBUG: 	argc: 1
+DEBUG: 	argv:
+DEBUG: 	 [0]: exit
+DEBUG: 	Error file: (null)
+DEBUG: 
+PROCESS ERROR: Process pid does not exist.
